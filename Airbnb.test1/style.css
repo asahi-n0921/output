@@ -1,0 +1,307 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Circular, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "MS Gothic", "ＭＳ ゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1070px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+} 
+
+.d-flex2 {
+    justify-content: space-between;
+}
+
+.fa {
+    font-weight: 900;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.header-left  {
+    margin-right: 8px;
+}
+
+.header-left img {
+    margin: 0 20px;
+}
+
+.access {
+    flex-grow: 1;
+    align-items: center;
+    padding-right: 48px;
+}
+
+.form {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.fa-search {
+    font-size: 20px;
+    vertical-align: middle;
+    padding: 15px 15px 0 10px;
+}
+
+input {
+    height: 48px;
+    font-size: 15px;
+} 
+
+.form > input {
+    border: none;
+    outline: 0;
+    flex-grow: 1;
+}
+
+.header-right {
+    justify-content: end;
+    float: right;
+    
+}
+
+.header-right a {
+    font-size: 14px;
+    color: #484848;
+    padding: 15px;
+    display: block;
+
+}
+
+.banner {
+    background-color: #c2e4e7;
+    position: relative;
+}
+
+.row {
+    justify-content: center;
+} 
+
+.fa-comment-dots {
+    font-size: 30px;
+    padding-top: 10px;
+    margin-right: 10px;
+
+}
+
+.banner-text {
+    font-size: 14px;
+    text-align: center;
+    padding-right: 30px;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.close {
+    position: absolute;
+    font-size: 28px;
+    top: 3px;
+    right: 20px;
+}
+
+.top-wrapper {
+    padding: 180px 0;
+    background-image: url(./image/BackgroundHomeSummer.jpg);
+    background-size: cover;
+    background-position: center
+}
+
+.top-box {
+    vertical-align: middle;
+    padding-left: 100px;
+}
+
+.top1 {
+    font-size: 46px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.top-wrapper p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.top-wrapper a {
+    font-size: 16px;
+    color: #484848;
+    background-color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+}
+
+.page-1 {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.page-1 h2 {
+    font-size: 32px;
+    color: #484848;
+}
+
+.gift-box {
+    width: 33%;
+    float: left;
+}
+
+.gift-box h3 {
+    font-size: 18px;
+    color: #484848;
+}
+
+.gift-box i {
+    font-size: 50px;
+    color: #007a87;
+}
+
+.gift-box p {
+    width: 90%;
+    display: inline-block;
+    font-size: 16px;
+    color: #767676;
+}
+
+.page-2 {
+    padding: 40px 0;
+    background-color: #007a87;
+    text-align: center;
+}
+
+.gift-if h2 {
+    font-size: 32px;
+    color: white;
+}
+
+.gift-if p {
+    font-size: 20px;
+    color: white;
+    margin-top: -20px;
+}
+
+.registration a {
+    font-size: 16px;
+    color: white;
+    background-color: #ff5a5f;
+    padding: 8px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.registration2 {
+    margin-top: 18px;
+}
+
+.registration2 a {
+    color: white;
+    margin-top: 18px;
+}
+
+.contact-form {
+    width: 25%;
+    margin-left: 5%;
+}
+
+.form-title {
+    font-size: 14px;
+    color: #484848;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-icon {
+    margin-bottom: 18px;
+}
+
+.contact-icon i {
+    font-size: 20px;
+    color: rgba(0,0,0,0.847);
+    margin-right: 15px;
+}
+
+.contact-form a {
+    font-size: 14px;
+    color: #484848;
+}
+
+footer {
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    border-top: 1px solid #eee;
+}
+
+.footer-all {
+    justify-content: space-between;
+}
+
+.footer-left {
+    display: table;
+}
+
+.footer-icon {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.footer-icon img {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.last-text, .footer-text a {
+    font-size: 14px;
+    color: #767676;
+}
+
+.footer-right {
+    margin-top: 20px;
+}
+
+.btn {
+    font-size: 14px;
+    color:#767676;
+    font-weight: 600;
+    border: 1px solid #f2f2f2;
+    vertical-align: middle;
+}

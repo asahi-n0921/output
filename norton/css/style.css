@@ -1,0 +1,387 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Arial, sans-serif;
+  font-size: 14px;
+  color: #353636;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+li, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 40px;
+  background-color: #fff;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+header .inner {
+  margin-top: 15px;
+  padding: 15px　0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-left img {
+  margin-top: 10px;
+}
+
+.header-right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 15px;
+}
+
+.header-right ul li {
+  margin: 10px 13px 0 0;
+  padding: 0 13px 0 0;
+  border-right: 1px solid #b5b5b5;
+  font-size: 13px;
+  height: 20px;
+}
+
+.header-right ul li a {
+  color: #333333;
+}
+
+.header-right ul .button {
+  padding: 10px 15px;
+  margin-top: 0;
+  border: 1px solid #b5b5b5;
+  height: 40px;
+}
+
+.contents {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.contents .product {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.contents .product img {
+  text-align: center;
+  width: 100%;
+}
+
+.contents .product .product-text-1 {
+  position: absolute;
+  top: 130px;
+  left: 130px;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.contents .product .product-text-1 span {
+  border: 1px solid #353636;
+  padding: 0 5px;
+}
+
+.contents .product .product-text-2 {
+  position: absolute;
+  top: 140px;
+  left: 130px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.contents .product .product-text-2 span {
+  font-size: 16px;
+}
+
+.contents .product .product-text-3 {
+  position: absolute;
+  top: 210px;
+  left: 130px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ff0000;
+  background-color: #fff;
+  padding: 2px 11px 1px 11px;
+  border-radius: 20px;
+}
+
+.contents .product .product-text-3 span {
+  font-size: 22px;
+}
+
+.contents .product .product-button {
+  width: 200px;
+  height: 75px;
+  background-color: #006c13;
+  border-radius: 10px;
+  position: absolute;
+  top: 190px;
+  left: 330px;
+  display: block;
+  margin: 0;
+}
+
+.contents .product .product-button .fas {
+  color: #fff;
+  font-size: 17px;
+  margin-right: 5px;
+}
+
+.contents .product .product-button a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.services {
+  width: 100%;
+}
+
+.services img {
+  width: 100%;
+}
+
+.four {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.four table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.four table:nth-child(1) {
+  font-size: 12px;
+  background-color: #d1d0d0;
+}
+
+.four table tr, .four table th, .four table td {
+  border: 1px solid #333333;
+}
+
+.four table tr {
+  width: 150px;
+  height: 105px;
+}
+
+.four table tr:nth-child(2) {
+  font-size: 14px;
+}
+
+.four table tr .td-title {
+  font-size: 16px;
+}
+
+.four table tr td {
+  width: 200px;
+  padding: 20px 0;
+}
+
+.four table tr td:not(:nth-child(1)) {
+  background-color: #f1f1d9;
+}
+
+.four table tr td .details {
+  color: #000;
+  font-size: 14px;
+  background-color: #FFF7D6;
+  margin-bottom: 10px;
+}
+
+.four table tr td span {
+  color: #ff0000;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.four table tr td img {
+  width: 34px;
+}
+
+.four table tr td p {
+  margin: 10px 0;
+  padding-left: 30px;
+}
+
+.four table tr td .product-button {
+  width: 175px;
+  height: 40px;
+  margin: 0;
+}
+
+.four table tr td .product-button a {
+  background-color: #006c13;
+  font-size: 17px;
+}
+
+.four table tr td small {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.four .note {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.performance {
+  width: 100%;
+}
+
+.performance h1 {
+  font-size: 34px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #FDBB30;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.performance h2 {
+  font-size: 34px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #0085c6;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 60px;
+}
+
+.performance .evaluation {
+  width: 100%;
+}
+
+.performance .scroll {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.performance .scroll a {
+  color: #ff0000;
+  font-size: 14px;
+}
+
+dl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+dl figure {
+  z-index: 2;
+}
+
+dl figure img {
+  z-index: 2;
+}
+
+dl .performance-text :nth-child(1) {
+  width: 100%;
+  font-size: 28px;
+  font-weight: 700;
+  border-bottom: 1px solid #FDBB30;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  z-index: -200;
+}
+
+dl .performance-text :nth-child(1) span {
+  font-size: 40px;
+  font-weight: 700;
+  border: none;
+}
+
+dl .performance-text :nth-child(2) {
+  font-size: 20px;
+  z-index: -200;
+  margin: 10px 0 0 0;
+}
+
+dl .performance-text :nth-child(3) {
+  font-size: 12px;
+  font-weight: 400;
+  z-index: -200;
+}
+
+.product-button {
+  width: 100%;
+  height: 75px;
+  background-color: #006c13;
+  border-radius: 10px;
+  margin: 50px auto;
+}
+
+.product-button .fas {
+  color: #fff;
+  font-size: 17px;
+  margin-right: 5px;
+}
+
+.product-button a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 12px;
+  border-top: 1px solid #e4e4e4;
+}
+
+footer .footer-left ul {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-left ul li {
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #555;
+  height: 20px;
+}
+
+footer .footer-left ul li a {
+  color: #555;
+}
+
+footer .footer-left :nth-child(3) {
+  color: #999999;
+  font-size: 11px;
+}
+
+footer .footer-left :nth-child(4) {
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=style.css.map */

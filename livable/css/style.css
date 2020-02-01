@@ -1,0 +1,378 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, p, a, img, ul, li, table, tr, th, td, tbody, footer, header, main, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-size: 18px;
+}
+
+.inner {
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  background-color: #00aeef;
+  padding: 20px 80px;
+}
+
+header img {
+  width: 200px;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(../image/index_im01.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 60px;
+  padding-right: 159px;
+  padding-left: 159px;
+}
+
+.top .top-left {
+  width: 593px;
+  height: 595px;
+}
+
+.top .step {
+  width: 375px;
+  background-color: #fff;
+  padding: 0 15px 5px;
+  margin: 30px;
+}
+
+.top .step .step-1 p, .top .step .step-2 p {
+  font-size: 13px;
+  color: #00aeef;
+  text-align: left;
+}
+
+.top .step .step-1 dl, .top .step .step-2 dl {
+  background-color: #eee;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.top .step .step-1 dl dt, .top .step .step-2 dl dt {
+  font-size: 11px;
+}
+
+.top .step .step-1 dl dt small, .top .step .step-2 dl dt small {
+  display: block;
+  border: 1px solid red;
+  color: red;
+  text-align: center;
+  background-color: #eed0d0;
+  border-radius: 3px;
+}
+
+.top .step .step-1 dl dd, .top .step .step-2 dl dd {
+  margin: 0;
+}
+
+.top .step .step-1 dl dd select, .top .step .step-2 dl dd select {
+  width: 220px;
+  height: 35px;
+}
+
+.top .step .step-1 dl dd img, .top .step .step-2 dl dd img {
+  width: 31px;
+  height: 31px;
+}
+
+.top .step .step-2 dl {
+  margin: 0;
+}
+
+.top .step img {
+  width: 100%;
+}
+
+.top .step button {
+  display: block;
+  width: 346px;
+  height: 60px;
+  font-size: 15px;
+  background-color: #bbb;
+  color: #fff;
+  border-bottom: 3px solid #888;
+}
+
+.hope {
+  text-align: center;
+}
+
+.hope :nth-child(4) {
+  margin-bottom: -31px;
+}
+
+.page-b {
+  background-color: #effaff;
+  padding: 80px 160px;
+}
+
+.page-b .page-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-b .page-content .page-left {
+  margin-top: 60px;
+}
+
+.page-b .page-content .page-left h2 {
+  font-weight: 700;
+  color: #00aeef;
+  text-align: left;
+}
+
+.page-b .page-content .page-left img {
+  padding-top: 60px;
+}
+
+.page-b .page-content .page-left p {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.page-b .page-content .page-left span {
+  font-size: 12px;
+}
+
+.page-b .page-content .page-right {
+  margin-top: 60px;
+}
+
+.page-w {
+  background-color: #fff;
+  padding: 80px 160px;
+  text-align: left;
+}
+
+.page-w .page-text {
+  padding-top: 60px;
+}
+
+.page-w .page-text h2 {
+  font-weight: 700;
+  color: #00aeef;
+}
+
+.page-w .page-text p {
+  margin-top: 10px;
+}
+
+.page-w .page-img {
+  margin-top: 20px;
+}
+
+.page-w span {
+  font-size: 12px;
+}
+
+.page-w .page-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-w .page-content .page-left {
+  margin-top: 60px;
+}
+
+.page-w .page-content .page-left h2 {
+  font-weight: 700;
+  color: #00aeef;
+  text-align: left;
+}
+
+.page-w .page-content .page-left img {
+  padding-top: 60px;
+}
+
+.page-w .page-content .page-left p {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.page-w .page-content .page-right {
+  margin-top: 60px;
+}
+
+.five {
+  background-color: #effaff;
+  padding: 80px 160px;
+  text-align: left;
+}
+
+.five .page-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 0 40px;
+}
+
+.five .page-content .page-left {
+  margin-top: 60px;
+}
+
+.five .page-content .page-left span {
+  font-size: 12px;
+  display: block;
+}
+
+.five .page-content .page-right {
+  margin-top: 60px;
+}
+
+.select {
+  background-image: url(../image/index_bg06.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 40px;
+}
+
+.select .page-title img {
+  margin-top: -30px;
+}
+
+.select .step-title {
+  margin-bottom: -15px;
+}
+
+.select .steps {
+  background-color: #fff;
+  width: 960px;
+  margin: 0 auto;
+  padding: 18px 18px 20px 17px;
+}
+
+.select .step-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.select .step-1, .select .step-2 {
+  text-align: left;
+}
+
+.select .step-1 p, .select .step-2 p {
+  font-size: 13px;
+  color: #00aeef;
+}
+
+.select .step-1 dl, .select .step-2 dl {
+  background-color: #eee;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.select .step-1 dl dt, .select .step-2 dl dt {
+  font-size: 11px;
+  margin-right: 15px;
+}
+
+.select .step-1 dl dt small, .select .step-2 dl dt small {
+  display: block;
+  border: 1px solid red;
+  color: red;
+  text-align: center;
+  background-color: #eed0d0;
+  border-radius: 3px;
+}
+
+.select .step-1 dl dd, .select .step-2 dl dd {
+  margin: 0;
+}
+
+.select .step-1 dl dd select, .select .step-2 dl dd select {
+  width: 335px;
+  height: 35px;
+}
+
+.select .step-1 dl dd img, .select .step-2 dl dd img {
+  width: 31px;
+  height: 31px;
+}
+
+.select .step-1 dl .ok, .select .step-2 dl .ok {
+  margin-left: 15px;
+}
+
+.select .step-2 dl {
+  margin: 0;
+}
+
+.select button {
+  width: 346px;
+  height: 60px;
+  font-size: 15px;
+  background-color: #bbb;
+  color: #fff;
+  border-bottom: 3px solid #888;
+  margin-top: 20px;
+}
+
+.footer {
+  margin: 50px auto 0 auto;
+  text-align: center;
+}
+
+.footer .footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 768px;
+  margin: 0 auto 50px;
+}
+
+.footer .footer-content p {
+  font-size: 16px;
+  padding-top: 28px;
+  margin-left: 15px;
+}
+
+.footer .footer-end {
+  background-color: #00aeef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 40px;
+  padding: 15px 40px;
+}
+
+.footer .footer-end p {
+  font-size: 12px;
+  color: #fff;
+}
+
+.footer .footer-end img {
+  width: 188px;
+  height: 12px;
+}
+/*# sourceMappingURL=style.css.map */

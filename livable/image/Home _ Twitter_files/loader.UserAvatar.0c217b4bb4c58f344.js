@@ -1,0 +1,2 @@
+webpackJsonp(["loader.UserAvatar"],{"7UkE":function(e,a,t){"use strict";Object.defineProperty(a,"__esModule",{value:!0});var r=t("tQ79"),n=t.n(r);a.default=n.a}});
+//# sourceMappingURL=https://ton.smf1.twitter.com/responsive-web-internal/sourcemaps/web/loader.UserAvatar.0c217b4bb4c58f344.js.map

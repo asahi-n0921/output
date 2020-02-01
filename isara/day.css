@@ -1,0 +1,953 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    width: auto;
+    height: auto;
+    font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", ���C���I, Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+}   
+    
+li {
+    list-style: none;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.black {
+    color: #333333;
+}
+
+.yellow {
+    color: #ebb94d;
+}
+
+.red {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color:  #f9f2f4;
+    border-radius: 4px;
+}
+
+.text28 {
+    font-size: 28px;
+    font-weight: 600;
+} 
+
+.text21 {
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.text20 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.text18 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text16 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.text14 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.text12 {
+    font-size: 12px;
+    font-weight: 300;
+
+}
+
+.brsp {
+    display: none;
+}
+
+/*----- header -----*/
+
+header {
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+    width: 100%;
+}
+
+.title {
+    width: 1170px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    position: relative;
+    padding: 20px 0;
+    height: 75px;
+}
+
+.title .logo .subtitle {
+    display: inline-block;
+} 
+
+.logo {
+    margin-top: -6px;
+}
+
+.logo img {
+    width: 128px;
+}
+
+.subtitle {
+    position: relative;
+    bottom: -10px;
+}
+
+.subtitle p {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.contact-pc {
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    top: 16px;
+    color: #fff;
+    padding: 11px 40px;
+    background-color: #da6b64;
+    border-radius: 25px;
+}
+
+.contact-sp {
+    display: none;
+} 
+
+/*----- header end -----*/
+
+/*----- top -----*/
+
+#top {
+    padding-top: 75px;
+}
+
+.cover-img {
+    background-image: url(./image/main.jpg);
+    background-position: center;
+    height: 500px;
+    display: table;
+    width: 100%;
+    background-size: cover;
+}
+
+.cover-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.main-logo {
+    width: 317px;
+    margin-bottom: 20px;
+}
+
+/*----- top end -----*/
+
+/*--- conversion ---*/
+
+#conversion {
+    background-color: #ebb94d;
+    padding: 30px 0;
+}
+
+.conversion-btn {
+    cursor: pointer;
+    padding: 30px 120px;
+    background-color: #da6b64;
+    border-radius: 70px;
+    margin: 45px auto;
+    max-width: 1028px;
+}
+
+.conversion-btn p {
+    margin-top: 16px;
+}
+
+.conversion-text p {
+    margin-bottom: 40px;
+}
+
+.twitter {
+    background-color: #1b95e0;
+    font-size: 13px;
+}
+
+.facebook {
+    background-color: #4267b2;
+    font-size: 13px;
+}
+
+/*--- conversion end ---*/
+
+/*--- introduction ---*/
+
+#introduction {
+    background-image: url(./image/introbottom.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 587px;
+    padding: 40px 0;
+}
+
+.yellow-title {
+    margin: 0 auto;
+    position: relative;
+    width: 860px;
+    max-width: calc(100% - 40px);
+    padding: 15px 0px;
+    box-sizing: border-box;
+}
+
+.yellow-title::before {
+    top: 0;
+    left: 0;
+    border-top: 4px solid #ebb94d;
+    border-left: 4px solid #ebb94d;
+}
+
+.yellow-title::after {
+    bottom: 0;
+    right: 0;
+    border-bottom: 4px solid #ebb94d;
+    border-right: 4px solid #ebb94d;
+}
+
+.yellow-title::before, .yellow-title::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.introduction-text {
+    padding: 40px 0;
+}
+
+.introduction-text p {
+    padding: 10px 0;
+}
+
+.introduction span {
+    font-weight: bold;
+    background: linear-gradient(transparent 70%, #ebb94d 70%);
+}
+
+/*--- introduction ---*/
+
+/*--- about-isara ---*/
+
+.about {
+    padding: 0 0 40px 0;
+    background-color: #fef5e0;
+}
+
+.about-icon {
+    position: relative;
+    top: -40px;
+}
+
+.circle {
+    background-color: #ebb94d;
+    padding: 0;
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+ .about-title-text{
+    margin-top: 40px;
+}
+
+.about-box {
+    width: 1170px;
+    max-width: calc(100% - 40px);
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    border: 2px solid #ebb94d;
+    border-radius: 5px;
+}
+
+.box {
+    margin: 20px;
+    display: inline-block;
+}
+
+.box img {
+    vertical-align: middle;
+}
+
+.box p {
+    margin-top: 10px;
+}
+
+/*--- about-isara end ---*/
+
+
+/*--- about-second ---*/
+
+.about-second {
+    background-image: url(./image/aboutsecondbg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about-second h2 {
+    margin-bottom: 20px;
+}
+
+.about-second .container {
+    margin-top: 30px;
+}
+
+.side-box {
+    padding: 30px 30px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 32%;
+}
+
+.step {
+    background-color: #ebb94d;
+    border-radius: 5px;
+}
+
+.side-contents .text14 {
+    margin: 30px 0 15px;
+}
+
+.side-contents p {
+    color: #000000;
+    font-weight: 600;
+}
+
+/*--- about-second end ---*/
+
+/*--- about-third  ---*/
+#about-third {
+    background-color: #016ea9;
+    padding: 40px 0;
+    vertical-align: middle;
+}
+
+#about-third p {
+    margin: 0;
+}
+
+/*--- about-third  ---*/
+
+/*--- learning ---*/
+.learning {
+    padding: 40px 0;
+}
+
+.learning h2 {
+    margin-bottom: 35px;
+}
+
+.learning p {
+    margin-bottom: 30px;
+}
+
+.learning, .container {
+    padding: 0;
+    width: 860px;
+    max-width: calc(100% - 40px);
+    margin: 40px auto;
+}
+
+.learning-box img {
+    width: 180px;
+}
+
+/*--- learning end ---*/
+
+/*--- merit ---*/
+#merit {
+    padding: 40px 0;
+    background-color: #fef5e0;
+}
+
+#merit, .container {
+    margin-top: 40px;
+}
+
+.support-img1 {
+    height: 180px;
+    background-image: url(./image/support.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.support-img2 {
+    height: 180px;
+    background-image: url(./image/support2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.support-img3 {
+    height: 180px;
+    background-image: url(./image/support3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*--- merit end ---*/
+
+/*-- teach --*/
+#teacher {
+    background-image: url(./image/teacherbgsp.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+#teacher h2 {
+    margin-bottom: 20px;
+}
+
+.teacher-box img {
+    position: relative;
+    bottom: -35px;
+    border-radius: 50%;
+}
+
+.teacher-text {
+    padding: 40px;
+    border: 3px solid #fff;
+    font-weight: 300;
+}
+
+
+/*-- teach end --*/
+
+/*-- why --*/
+
+.why {
+    background-color: #ebb94d;
+    padding: 40px 0;
+}
+
+.why::after {
+    content: "";
+    height: 0;
+    position: absolute;
+    width: 0;
+    border: 25px solid transparent;
+    border-top-color: #ebb94d;
+    top: 100%;
+    left: 50%;
+    margin-left: -25px;
+}
+
+.circle-2 {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.white-title {
+    margin: 0 auto;
+    position: relative;
+    width: 860px;
+    max-width: calc(100% - 40px);
+    padding: 15px 0px;
+    box-sizing: border-box;
+}
+
+.white-title h2 {
+    margin-top: 30px;
+}
+
+.white-title::before {
+    top: 0;
+    left: 0;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+}
+
+.white-title::after {
+    bottom: 0;
+    right: 0;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+}
+
+.white-title::before, .white-title::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+/*-- why end --*/
+
+/*-- answer --*/
+.answer {
+    padding: 40px 0;
+}
+
+.answer h2 {
+    margin-bottom: 30px;
+}
+
+.answer .client.voice {
+    padding: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    font-style: italic;
+    color: #777;
+}
+
+.answer .client.voice .col-xs-4 {
+    padding-left: 0;
+}
+
+.col-xs-4 {
+    width: 33.33333333%;
+    margin: 0;
+}
+
+.answer .client.voice .small {
+    display: inline-block;
+    margin-top: 8px;
+    text-decoration: underline;
+}
+
+.answer img {
+    width: 245px;
+    height: 245px;
+    border: solid;
+    border-color: #ebb94d; 
+}
+
+.answer .client.voice .col-xs-8 {
+    padding-left: 0;
+}
+
+.client {
+    display: flex;
+}
+
+.responsive-img {
+    margin-left: 20px;
+}
+
+.col-xs-4 {
+    padding-right: 15px;
+}
+
+.col-xs-8 {
+    width: 66.66666667%;
+}
+
+
+/*-- answer end --*/
+
+/*-- class --*/
+#class {
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+    background-image: url(./image/desk.jpg);
+    background-size: cover;
+}
+
+.class-box {
+    padding: 40px 0;
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.class-wrap {
+    background-color: #fff;
+    border: 1px solid #016ea9;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.class-title {
+    background-color: #016ea9;
+    color: white;
+}
+
+ul {
+    color: black;
+}
+
+.class-wrap ul {
+    padding: 0;
+    margin: 0;
+}
+
+.class-wrap ul li {
+    padding: 10px;
+    border-bottom: 1px dotted #e5e5e5;
+}
+
+/*-- class end --*/
+
+/*-- class-bottom --*/
+
+#class-bottom {
+    background-color: #016ea9;
+    padding: 40px 0;
+    vertical-align: middle;
+}
+
+#class-bottom p {
+    margin: 0;
+}
+
+/*-- class-bottom end --*/
+
+
+/*-- flow --*/
+#flow {
+    padding: 40px 0;
+}
+
+#flow h2 {
+    margin: 20px 0;
+}
+
+.flow-image {
+    margin: 40px auto;
+}
+
+.flow-box {
+    width: 1170px;
+    max-width: calc(100% - 40px);
+    overflow: hidden;
+    padding: 10px 35px;
+    margin: 0 auto;
+    background-color: #fef5e0;
+    border-radius: 10px;
+}
+
+.flow-box p {
+    margin: 20px 0;
+}
+
+.flow-left {
+    float: left;
+    padding: 20px;
+    width: 200px;
+}
+
+.flow-left p {
+    margin-bottom: 0;
+}
+
+.flow-right p {
+    text-align: left;
+}
+
+.flow-wrap2 {
+    width: 100%;
+}
+
+.flow-box2 {
+    cursor: pointer;
+    background-color: #fef5e0 !important;
+    color: #000000;
+    border: none;
+    margin-bottom: 5px;
+    padding: 20px 15px;
+    display: block;
+    text-align: left;
+}
+
+.flow-box-title img {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+}
+
+.flow-box-title h3 {
+    margin-top: 10px;
+}
+
+/*-- flow end --*/
+
+/*-- bangkok --*/
+#bangkok {
+    background-image: url(./image/bangkokbg.jpn.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 80px 80px;
+}
+
+#bangkok h2 {
+    font-size: 24px;
+    font-weight: 600; 
+    margin-bottom: 20px;
+}
+
+#bangkok p {
+    margin-bottom: 10px;
+}
+
+.bangkok-bottom {
+    margin-top: 20px;
+}
+/*-- bangkok end --*/
+
+/*-- special --*/
+#special {
+    padding: 40px 0;
+    background-color: #ebb94d;
+}
+
+#special h2 {
+    margin: 20px 0 40px 0;
+}
+
+#special p {
+    margin-bottom: 20px;
+}
+
+.special-text {
+    position: relative;
+    bottom: -58px;
+    background-color: #ebb94d;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.special-box {
+    width: 1170px;
+    padding: 40px;
+    border: 2px solid white;
+}
+
+.tokuten {
+    width: 250px;
+    height: 250px;
+    padding: 0;
+    margin: 10px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.tokuten .tokuten-box {
+    padding: 15px;
+    height: 250px;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.special-sp {
+    display: none;
+}
+
+.tokuten-title {
+    font-size: 24px;
+    color: #ebb94d;
+}
+
+.special-box2 {
+    margin: 15px 0;
+    overflow: hidden;
+}
+
+.tokuten-left {
+    width: 30%;
+    float: left;
+    padding: 0;
+}
+
+.tokuten-title2 {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.gold {
+    font-size: 12px;
+    color: #ebb94e;
+}
+
+.tokuten-right p {
+    text-align: left;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+
+/*-- special end --*/
+
+/*-- special-detail --*/
+#special-detail {
+    background-image: url(./image/specialdetail.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+}
+
+.special-detail-title {
+    margin: 20px 0;
+}
+
+.special-detail-title2 {
+    margin-bottom: 20px;
+}
+
+.white-title {
+    margin: 0 auto;
+    position: relative;
+    width: 860px;
+    max-width: calc(100% - 40px);
+    padding: 15px 30px;
+}
+
+.special-detail-bottom {
+    margin-top: 20px;
+}
+/*-- special-detail end --*/
+
+/*-- learning --*/
+.container .message-container {
+    max-width: 1028px;
+}
+/*-- learning end --*/
+
+/*-- contact-form --*/
+#contact-form {
+    background-color: #ebb94d;
+    padding: 40px 20%;
+}
+
+#contact-form h2 {
+    margin: 20px 0;
+}
+
+#contact-form p {
+    margin: 20px 0;
+}
+
+input{
+    width: 100%;
+    height: 55px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: none;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: none;
+}
+
+.enter {
+    width: 100%;
+    background-color: #da6b64;
+    color: white;
+    padding: 10px 120px;
+    border-radius: 50px;
+    font-size: 23px;
+    border: none;
+}
+/*-- contact-form end --*/
+
+/*-- question --*/
+#questions {
+    padding: 40px 10%;
+    text-align: center;
+}
+
+#questions h2 {
+    margin-bottom: 40px;
+}
+
+.question-list {
+    width: 1170px;
+    max-width: calc(100% - 40px);
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.panel {
+    margin-top: 5px;
+    border: 1px solid #e5e5e5;
+    padding: 30px 20px 20px 20px;
+    background-color: #fff;
+    vertical-align: middle;
+}
+
+.fa-chevron-down {
+    float: right;
+    color: #e5e5e5;;
+}
+
+/*-- question end --*/
+
+/*-- footer --*/
+
+footer {
+    background-color: #ececec;
+    padding: 40px 0;
+    font-size: 10px;
+    text-align: center;
+}
+
+footer span {
+    color: #23527c;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+}

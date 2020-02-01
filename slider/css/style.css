@@ -1,0 +1,32 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, p, a, img, ul, li, table, tr, th, td, tbody, footer, header, main, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  list-style: none;
+  text-decoration: none;
+}
+
+.slider {
+  text-align: center;
+}
+
+.slider .slider-title {
+  background-color: aqua;
+  color: #fff;
+  cursor: pointer;
+}
+
+.slider .slider-text {
+  display: none;
+}
+
+.slider .slider-text li {
+  margin: 20px 0;
+}
+/*# sourceMappingURL=style.css.map */

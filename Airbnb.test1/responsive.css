@@ -1,0 +1,51 @@
+/* タブレット向け */
+@media all and (max-width: 1134px) {
+    .access {
+        width: 70%;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .width1 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    footer {
+        width: 600px;
+    }
+
+}
+
+
+/* スマホ向け */
+@media all and (max-width: 745px) {
+
+    .form {
+        width: 100%;
+    }
+
+    .top-box {
+        text-align: left;
+    }
+
+    .gift-box {
+        width: 100%;
+        float: left;
+    }
+
+    .registration a {
+        width: 100%;
+    }
+
+    .page-3, .border {
+        display: none;
+    }
+
+    footer {
+        width: 90%;
+    }
+
+}

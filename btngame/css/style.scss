@@ -1,0 +1,27 @@
+body {
+    background: #fff;
+}
+
+#btn {
+    width: 300px;
+    height: 300px;
+    font-size: 50px;
+    background: #ef454a;
+    border-radius: 50%;
+    line-height: 300px;
+    color: white;
+    margin: 30px auto 0;
+    text-align: center;
+    box-shadow: 0 10px 0 #d1483e;
+    cursor: pointer;
+    user-select: none;
+}
+
+#btn:hover {
+    opacity: 0.8;
+}
+
+#btn.pressed {
+    box-shadow: 0 5px 0 #d1483e;
+    margin-top: 35px;
+}
